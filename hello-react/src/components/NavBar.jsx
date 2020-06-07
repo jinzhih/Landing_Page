@@ -11,7 +11,7 @@ class NavBar extends Component {
             if (window.scrollY > 170) {
                 elem.classList.add("is-sticky");
             } else {
-                elem.classList.remove("is-sticky");
+                elem.classList.add("is-sticky");
             }
         });
         let scrollWithOffset = (el, offset) => {
