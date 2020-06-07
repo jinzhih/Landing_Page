@@ -122,6 +122,11 @@ button:focus {
   color: #ffffff;
   background-color: #71c21b;
   border-color: #71c21b;
+
+}
+
+.btn-primary1{
+  visibility: hidden;
 }
 
 .btn-primary:hover, .btn-primary:focus {
@@ -414,7 +419,7 @@ Main Banner Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .main-banner::before {
@@ -486,7 +491,7 @@ button.modal-video-close-btn {
 }
 
 .item-bg-two {
-  background-image: url(../../assets/img/main-banner2.jpg);
+  background-image: url(../../assets/img/banner1.png);
 }
 
 .item-bg-three {
@@ -535,6 +540,7 @@ button.modal-video-close-btn {
   background: transparent;
   border: none;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .hero-content .video-btn i {
@@ -596,6 +602,7 @@ button.modal-video-close-btn {
   bottom: 100px;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
 }
 
 .animation-box2 {
@@ -604,6 +611,7 @@ button.modal-video-close-btn {
   top: 150px;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
 }
 
 .animation-box3 {
@@ -612,6 +620,7 @@ button.modal-video-close-btn {
   top: 100px;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
 }
 
 .animation-box4 {
@@ -620,6 +629,7 @@ button.modal-video-close-btn {
   bottom: -260px;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
 }
 
 .animation-box5 {
@@ -627,6 +637,8 @@ button.modal-video-close-btn {
   right: -150px;
   bottom: -150px;
   z-index: -1;
+  visibility: hidden;
+
 }
 
 .animation-box6 {
@@ -636,6 +648,8 @@ button.modal-video-close-btn {
   z-index: -1;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
+        
 }
 
 .animation-box7 {
@@ -645,6 +659,7 @@ button.modal-video-close-btn {
   z-index: -1;
   -webkit-animation: movebounce 3s linear infinite;
           animation: movebounce 3s linear infinite;
+          visibility: hidden;
 }
 
 @-webkit-keyframes movebounce {
@@ -746,11 +761,12 @@ button.modal-video-close-btn {
 }
 
 .wave_box {
-  height: 0;
+  /* height: 0;
   width: 100%;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 0; */
+  visibility: hidden;
 }
 
 .wave_box .wave {

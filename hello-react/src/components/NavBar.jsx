@@ -7,6 +7,7 @@ import SideNav from  "../components/SideNav";
 class NavBar extends Component {
     componentDidMount() {
         let elem = document.getElementById("navbar");
+        elem.classList.add("is-sticky");
         document.addEventListener("scroll", () => {
             if (window.scrollY > 170) {
                 elem.classList.add("is-sticky");

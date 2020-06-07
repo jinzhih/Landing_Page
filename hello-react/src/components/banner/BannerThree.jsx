@@ -31,7 +31,7 @@ class BannerThree extends Component {
                     {this.props.mainrighttitle}
                   </h1>
                   <p>{this.props.content}</p>
-                  <a href={this.props.leftbtnlink} className="btn btn-primary">
+                  <a href={this.props.leftbtnlink} className="btn btn-primary1">
                     {this.props.leftbtn}
                   </a>
 
@@ -93,15 +93,15 @@ BannerThree.defaultProps = {
   animationImg3: require("../../assets/img/1.png"),
   animationImg4: require("../../assets/img/5.png"),
   animationImg5: require("../../assets/img/6.png"),
-  toptitle: "WE ARE CREATIVE",
-  mainlefttitle: "THE BEST",
-  mainspantitle: "DIGITAL",
-  mainrighttitle: "AGENCY",
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-  leftbtn: "Get Started",
-  leftbtnlink: "#",
-  videoId: "vr0qNXmkUJ8",
-  videobtn: "Watch Video"
+  // toptitle: "WE ARE CREATIVE",
+  // mainlefttitle: "THE BEST",
+  // mainspantitle: "DIGITAL",
+  // mainrighttitle: "AGENCY",
+  // content:
+  //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+   leftbtn: "Get Started",
+   leftbtnlink: "#",
+  // videoId: "vr0qNXmkUJ8",
+  // videobtn: "Watch Video"
 };
 export default BannerThree;
